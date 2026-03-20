@@ -1,7 +1,7 @@
 {
     "id" : "io.gitlab.guillermop.Counters",
     "runtime" : "org.gnome.Platform",
-    "runtime-version" : "49",
+    "runtime-version" : "50",
     "sdk" : "org.gnome.Sdk",
     "sdk-extensions" : [
         "org.freedesktop.Sdk.Extension.node20",
@@ -37,10 +37,14 @@
                 {
                     "type" : "git",
                     "url" : "https://gitlab.com/guillermop/Counters.git",
-                    "tag": "v1.3.2"
+                    "tag" : "v1.4.0",
+                    "commit" : "f9c464a1dc864e5c35759095e42981677ff8843f",
+                    "x-checker-data" : {
+                        "type": "git",
+                        "tag-pattern": "^v([\\d.]+)$"
+                    }
                 }
             ]
         }
     ]
 }
-
