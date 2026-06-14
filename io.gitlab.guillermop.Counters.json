@@ -1,34 +1,34 @@
 {
-    "id" : "io.gitlab.guillermop.Counters",
-    "runtime" : "org.gnome.Platform",
-    "runtime-version" : "50",
-    "sdk" : "org.gnome.Sdk",
-    "sdk-extensions" : [
+    "id": "io.gitlab.guillermop.Counters",
+    "runtime": "org.gnome.Platform",
+    "runtime-version": "50",
+    "sdk": "org.gnome.Sdk",
+    "sdk-extensions": [
         "org.freedesktop.Sdk.Extension.node20",
         "org.freedesktop.Sdk.Extension.typescript"
     ],
-    "build-options" : {
-        "append-path" : "/usr/lib/sdk/node20/bin:/usr/lib/sdk/typescript/bin"
+    "build-options": {
+        "append-path": "/usr/lib/sdk/node20/bin:/usr/lib/sdk/typescript/bin"
     },
-    "command" : "counters",
-    "finish-args" : [
+    "command": "counters",
+    "finish-args": [
         "--share=ipc",
         "--device=dri",
         "--socket=wayland",
         "--socket=fallback-x11",
         "--env=GJS_DISABLE_JIT=1"
     ],
-    "modules" : [
+    "modules": [
         {
-            "name" : "counters",
-            "buildsystem" : "meson",
-            "sources" : [
+            "name": "counters",
+            "buildsystem": "meson",
+            "sources": [
                 {
-                    "type" : "git",
-                    "url" : "https://gitlab.com/guillermop/Counters.git",
-                    "tag" : "v1.4.0",
-                    "commit" : "f9c464a1dc864e5c35759095e42981677ff8843f",
-                    "x-checker-data" : {
+                    "type": "git",
+                    "url": "https://gitlab.com/guillermop/Counters.git",
+                    "tag": "v1.4.1",
+                    "commit": "402d300c12758a69e36c549766eea237dafbdec1",
+                    "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
                     }
