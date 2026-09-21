@@ -1,14 +1,14 @@
 {
     "id": "io.gitlab.guillermop.Counters",
     "runtime": "org.gnome.Platform",
-    "runtime-version": "50",
+    "runtime-version": "51",
     "sdk": "org.gnome.Sdk",
     "sdk-extensions": [
-        "org.freedesktop.Sdk.Extension.node20",
+        "org.freedesktop.Sdk.Extension.node26",
         "org.freedesktop.Sdk.Extension.typescript"
     ],
     "build-options": {
-        "append-path": "/usr/lib/sdk/node20/bin:/usr/lib/sdk/typescript/bin"
+        "append-path": "/usr/lib/sdk/node26/bin:/usr/lib/sdk/typescript/bin"
     },
     "command": "counters",
     "finish-args": [
@@ -26,8 +26,8 @@
                 {
                     "type": "git",
                     "url": "https://gitlab.com/guillermop/Counters.git",
-                    "tag": "v1.4.1",
-                    "commit": "402d300c12758a69e36c549766eea237dafbdec1",
+                    "tag": "v1.5.0",
+                    "commit": "6fe95dafd694e5b234a8c79e4dc45ab4cc87520a",
                     "x-checker-data": {
                         "type": "git",
                         "tag-pattern": "^v([\\d.]+)$"
